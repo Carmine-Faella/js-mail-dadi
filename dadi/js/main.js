@@ -18,8 +18,10 @@ for (let i = 0; i < 1; i++) {
 
     if(numeroUtente > numeroComputer){
         vincitore.innerHTML = ("Vince l'utente");
+    }else if(numeroUtente < numeroComputer){
+        vincitore.innerHTML = ("Vince il computer");
     }else{
-        vincitore.innerHTML = ("Vince il Computer");
+        vincitore.innerHTML = ("Pareggio");
     }
 
 };

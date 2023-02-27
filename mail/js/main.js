@@ -4,15 +4,21 @@ let richiestaMail = prompt('Inserisci la tua email');
 
 let accesso = document.getElementById('accesso');
 
-let i = 0;
+let email = listaMail;
 
-for(;i < listaMail.length; ++i){
-    if(listaMail[i] !== richiestaMail){
-        console.log('Non sei entrato');
-    }else if(listaMail[i] == richiestaMail){
-        console.log('Sei entrato');
+email = false;
+
+for(let i = 0; i<listaMail.length;i++){
+    if(listaMail[i] = richiestaMail){
+        email = true;
+        console.log('Accesso consentito');
+    }else{
+        console.log('Accesso Negato');
     }
 };
+
+
+
 
 
 
