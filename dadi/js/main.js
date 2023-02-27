@@ -2,6 +2,12 @@ const numeroUtente = [];
 
 const numeroComputer = [];
 
+let numeroU = document.getElementById('numeroUtente');
+
+let numeroC = document.getElementById('numeroComputer');
+
+let vincitore = document.querySelector('.vincente');
+
 for (let i = 0; i < 1; i++) {
 
     let numeroCasuale = Math.floor(Math.random() * 6) + 1; 
@@ -11,13 +17,13 @@ for (let i = 0; i < 1; i++) {
     numeroComputer.push(numeroCasualeComputer);
 
     if(numeroUtente > numeroComputer){
-        alert("Vince l'utente");
+        vincitore.innerHTML = ("Vince l'utente");
     }else{
-        alert('Vince il Computer')
+        vincitore.innerHTML = ("Vince il Computer");
     }
 
-}
+};
 
-console.log(numeroUtente)
+numeroU.innerHTML = (`Numero utente: ${numeroUtente}`);
 
-console.log(numeroComputer)
+numeroC.innerHTML = (`Numero computer: ${numeroComputer}`);
