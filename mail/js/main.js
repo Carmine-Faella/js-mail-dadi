@@ -6,12 +6,11 @@ let accesso = document.getElementById('accesso');
 
 let i = 0;
 
-
 for(;i < listaMail.length; ++i){
     if(listaMail[i] !== richiestaMail){
-        accesso.innerHTML = ('Non sei entrato');
+        console.log('Non sei entrato');
     }else if(listaMail[i] == richiestaMail){
-        accesso.innerHTML = ('Sei entrato');
+        console.log('Sei entrato');
     }
 };
 
