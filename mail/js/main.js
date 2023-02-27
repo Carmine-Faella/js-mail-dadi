@@ -9,9 +9,9 @@ let i = 0;
 
 for(;i < listaMail.length; ++i){
     if(listaMail[i] !== richiestaMail){
-        console.log('Non sei entrato');
+        accesso.innerHTML = ('Non sei entrato');
     }else if(listaMail[i] == richiestaMail){
-        console.log('Sei entrato');
+        accesso.innerHTML = ('Sei entrato');
     }
 };
 
