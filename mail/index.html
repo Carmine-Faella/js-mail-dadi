@@ -7,17 +7,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mail</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <form>
-            <label for="email">Richiesta Email</label>
-            <div><input type="text" id="email"></div>
-        </form>
+        <div class="emailCnt">
 
-        <button id="leggiForm">Accedi</button>
-        <button id="resettaForm">Cancella</button>
+            <div>
+                <h1>OutLock</h1>
+                <form>
+                    <label for="email">Richiesta Email</label>
+                    <div><input type="text" id="email"></div>
+                </form>
+        
+                <button id="leggiForm">Accedi</button>
+                <button id="resettaForm">Cancella</button>            
+            </div>
 
-        <div id="accesso"></div>
+            <div id="accesso"></div>
+        
+        </div>
 
         <script style="text/javascript" src="js/main.js"></script>
     </body>

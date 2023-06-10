@@ -46,9 +46,9 @@ domButton.addEventListener('click',
         };
         
         if(consentito){
-            accesso.innerHTML = ('Accesso Consentito');
+            accesso.innerHTML = 'Accesso Consentito';
         }else{
-            accesso.innerHTML = ('Accesso Negato');
+            accesso.innerHTML = 'Accesso Negato';
         };
 
     }
